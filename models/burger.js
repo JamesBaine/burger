@@ -5,6 +5,10 @@ var burger = {
 		orm.all("burger", function(res){
 			cb(res);
 		});
+	},
+
+	update: function(id,cb){
+		orm.update("burger",id,cb);
 	}
 };
 
