@@ -4,6 +4,6 @@ create database burgers_db;
 		id int not null auto_increment,
 		burger_name varchar(255) not null,
 		devoured boolean default false,
-		date timestamp,
+		createdAt timestamp not null,
 		primary key (id)
 	);
