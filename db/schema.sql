@@ -1,5 +1,4 @@
-create database burgers_db;
-	use burgers_db;
+use xqcjdeftxxwmr7ln;
 	create table burger(
 		id int not null auto_increment,
 		burger_name varchar(255) not null,
